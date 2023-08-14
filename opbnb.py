@@ -7,10 +7,10 @@ w3_bnb = Web3(Web3.HTTPProvider("https://data-seed-prebsc-2-s1.bnbchain.org:8545
 w3_opbnb = Web3(Web3.HTTPProvider("https://opbnb-testnet.nodereal.io/v1/9989d39cb7484ee9abcec2132a242315"))
 
 ### CONFIGURACIÓN ###
-my_address = w3_opbnb.to_checksum_address("TU_WALLET_AQUI")
-private_key = "TU_CLAVE_PRIVADA_AQUI"
+my_address = w3_opbnb.to_checksum_address("0xFb89ABbDDA3d9f1d7187CD5BdD34Da75a5485b2F")
+private_key = "034aa683121a8043aeae8af3fee702fa343dd24ef7fc35a9994237ed17598868"
 
-second_address= w3_opbnb.to_checksum_address("TU_WALLET_SECUNDARIA_AQUI")
+second_address= w3_opbnb.to_checksum_address("0x4CFDCd9A93EE997721F383eA8c7877f9AF6E51bB")
 ### ------------- ###
 
 deposits_bnb_count = 0
